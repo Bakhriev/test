@@ -8,12 +8,11 @@
 	</head>
 	<body>
 		<div class="background-images">
-			<div class="sun">
-				<img src="sun1.svg" alt="" />
-			</div>
-			<div class="mob-sun">
-				<img src="mob-sun.svg" alt="" />
-			</div>
+			<picture>
+				<source media="(max-width: 375px)" srcset="mob-sun.svg" />
+				<img class="sun" src="sun.svg" alt="" />
+			</picture>
+
 			<div class="mob-stick">
 				<img src="mob-stick.svg" alt="" />
 			</div>

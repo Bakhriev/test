@@ -18,18 +18,8 @@ body {
 	left: 0;
 	top: 0;
 	z-index: 2;
-
-	@media screen and (max-width: 375px) {
-		display: none;
-	}
 }
 
-.mob-sun {
-	display: none;
-	@media screen and (max-width: 375px) {
-		display: block;
-	}
-}
 .mob-stick {
 	display: none;
 	@media screen and (max-width: 375px) {
@@ -51,7 +41,7 @@ img {
 	top: 151px;
 	@media screen and (max-width: 375px) {
 		top: 362px;
-    left: -17px;
+		left: -17px;
 	}
 }
 
